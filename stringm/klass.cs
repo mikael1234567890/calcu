@@ -25,7 +25,7 @@ public class StringManipulator
     // Metod för att konvertera strängen till versaler
     public string ToUpperCase(string input)
     {
-        return input.ToUpper();
+        return input.ToLower();
     }
 
     // Metod för att konvertera strängen till gemener
